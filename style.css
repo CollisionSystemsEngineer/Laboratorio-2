@@ -1,0 +1,69 @@
+main, body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    flex-direction: column-reverse;
+    display: flexbox;
+}
+
+header h1, h2{
+    order: 2;
+    text-align: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+header .profile-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.date {
+    font-style: italic;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+ul, ol{
+    display:block;
+    width:  50%;
+    color: blue;
+    background-color: aqua;
+}
+
+footer, footer p{
+    text-align: center;
+    background-color: #2596be;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.education section{
+    text-align: center;
+    text-decoration: dashed;
+    text-shadow: 1px;
+    color: rgb(167, 119, 119);
+    vertical-align: auto;
+}
